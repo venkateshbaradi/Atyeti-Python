@@ -1,4 +1,4 @@
-#to check if the given number is prime number or not
+# to check if the given number is prime number or not
 try:
     num_input = int(input("number: "))
     if num_input > 0:
