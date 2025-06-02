@@ -18,7 +18,10 @@ nums2 = [2, 4]
 
 list_final = nums1 + nums2
 list_final.sort()
-if len(list_final) % 2 == 0:
-    (list_final[len(list_final)/2] + list_final[len(list_final)/2 - 1]) / 2.0
+count = len(list_final)
+if count % 2 == 0:
+    result = (list_final[int(count/2)] + list_final[int(count/2) - 1])/ 2
 else:
-    float(list_final[len(list_final)/2])
+    result = (list_final[int(count/2)])
+
+print(result)
