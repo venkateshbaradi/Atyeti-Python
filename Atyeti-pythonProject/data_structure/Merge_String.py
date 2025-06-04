@@ -23,8 +23,8 @@ word2:    p   q
 merged: a p b q c   d
 
 """
-word1 = "ab"
-word2 = "pqrst"
+word1 = "abcde"
+word2 = "pq"
 result = ""
 res = []
 for a, b in zip(word1, word2):
